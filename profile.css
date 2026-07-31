@@ -1,0 +1,99 @@
+/* 🌋 GLOBAL DINO VIBES */
+body {
+  background: #121212 url('https://i.imgur.com/6YVqFqU.png');
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+/* 🦕 HEADER */
+header {
+  background: rgba(0,0,0,0.7);
+  padding: 20px;
+  text-align: center;
+  border-bottom: 3px solid #8b5a2b;
+  box-shadow: 0 0 20px #8b5a2b;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+  text-shadow: 0 0 10px #a06b33;
+}
+
+header button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #a06b33;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+header button:hover {
+  background: #c07d3d;
+  transform: scale(1.05);
+}
+
+/* 🦖 PROFILE BOX */
+.profileBox {
+  background: rgba(0,0,0,0.6);
+  margin: 30px auto;
+  padding: 25px;
+  width: 350px;
+  border-radius: 12px;
+  border: 2px solid #8b5a2b;
+  box-shadow: 0 0 15px #8b5a2b;
+  text-align: center;
+}
+
+/* 🦕 AVATAR */
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 4px solid #a06b33;
+  box-shadow: 0 0 15px #a06b33;
+  margin-bottom: 15px;
+}
+
+/* 🌿 TEXT */
+#username {
+  font-size: 28px;
+  margin: 10px 0;
+  text-shadow: 0 0 8px #a06b33;
+}
+
+#bio {
+  font-size: 16px;
+  opacity: 0.9;
+  margin-bottom: 20px;
+}
+
+/* 🌐 WEBSITE LINK */
+#siteLink {
+  color: #ffdd99;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+#siteLink:hover {
+  text-decoration: underline;
+}
+
+/* 🏅 BADGES */
+.badge {
+  display: inline-block;
+  background: #a06b33;
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 8px;
+  font-size: 14px;
+  box-shadow: 0 0 10px #a06b33;
+}
