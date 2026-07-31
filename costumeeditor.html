@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dino Costume Editor</title>
+  <link rel="stylesheet" href="costumeeditor.css">
+</head>
+<body>
+  <header>
+    <h1>Dino Costume Editor</h1>
+    <p>Draw, edit, and create prehistoric costumes.</p>
+  </header>
+
+  <main>
+    <div class="toolbar">
+      <label>Brush Size:
+        <input type="range" id="brushSize" min="1" max="40" value="8">
+      </label>
+
+      <input type="color" id="colorPicker" value="#ffcc00">
+
+      <button id="brushBtn">Brush</button>
+      <button id="eraserBtn">Eraser</button>
+      <button id="clearBtn">Clear</button>
+
+      <input type="file" id="importImg" accept="image/*">
+      <button id="exportBtn">Export PNG</button>
+    </div>
+
+    <canvas id="canvas" width="480" height="360"></canvas>
+  </main>
+
+  <script src="costumeeditor.js"></script>
+</body>
+</html>
+<button id="centerBtn">Put Objects To Center</button>
