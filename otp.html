@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dino OTP Verification</title>
+  <link rel="stylesheet" href="otp.css">
+</head>
+<body>
+  <header>
+    <h1>Dino OTP Verification</h1>
+    <p>Enter the code we sent to your email to continue.</p>
+  </header>
+
+  <main class="otpBox">
+    <form id="otpForm">
+      <label for="otpInput">One-Time Code</label>
+      <input
+        type="text"
+        id="otpInput"
+        maxlength="6"
+        autocomplete="off"
+        placeholder="123456"
+        required
+      >
+
+      <button type="submit">Verify</button>
+      <p id="otpStatus"></p>
+    </form>
+
+    <button id="resendBtn" class="secondary">Resend Code</button>
+  </main>
+
+  <script src="otp.js"></script>
+</body>
+</html>
