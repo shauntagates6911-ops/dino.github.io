@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DinosaurMod – Home</title>
+  <link rel="stylesheet" href="home.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body onload="dinoHomeInit()">
+
+  <!-- 🦕 HEADER -->
+  <header>
+    <h1>🦖 DinosaurMod Community</h1>
+    <button onclick="logout()">Logout</button>
+  </header>
+
+  <!-- 🌋 COMMUNITY PROJECTS -->
+  <section class="projects">
+    <h2>🌿 Community Projects</h2>
+    <div id="projectList"></div>
+  </section>
+
+  <!-- 📊 DINO CHARTS -->
+  <section class="charts">
+    <h2>📊 Dino Activity Charts</h2>
+    <canvas id="dinoChart"></canvas>
+  </section>
+
+  <script src="home.js"></script>
+  <script src="charts.js"></script>
+
+</body>
+</html>
