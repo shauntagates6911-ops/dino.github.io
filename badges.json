@@ -1,0 +1,44 @@
+[
+  {
+    "id": "early_dino",
+    "name": "Early Dino",
+    "icon": "icons/early_dino.png",
+    "rarity": "common",
+    "description": "Awarded for creating your profile."
+  },
+  {
+    "id": "site_builder",
+    "name": "Dino Project Builder",
+    "icon": "icons/site_builder.png",
+    "rarity": "common",
+    "description": "Awarded for adding your dino.github.io link."
+  },
+  {
+    "id": "first_submission",
+    "name": "First Roar",
+    "icon": "icons/first_submission.png",
+    "rarity": "rare",
+    "description": "Awarded for submitting your first project."
+  },
+  {
+    "id": "community_dino",
+    "name": "Community Dino",
+    "icon": "icons/community_dino.png",
+    "rarity": "rare",
+    "description": "Awarded for visiting 5 other dino games."
+  },
+  {
+    "id": "active_dino",
+    "name": "Active Dino",
+    "icon": "icons/active_dino.png",
+    "rarity": "epic",
+    "description": "Awarded for logging in 7 days in a row."
+  },
+  {
+    "id": "legendary_roar",
+    "name": "Legendary Roar",
+    "icon": "icons/legendary_roar.png",
+    "rarity": "legendary",
+    "description": "Awarded for contributing 10 projects to the Dino Kingdom."
+  }
+]
