@@ -1,0 +1,22 @@
+[
+  {
+    "name": "T‑Rex Headquarters",
+    "description": "The main base of the T‑Rex clan. Roaring 24/7.",
+    "url": "https://trex.dino.github.io"
+  },
+  {
+    "name": "Raptor Research Lab",
+    "description": "AI raptors learning, hunting, and evolving.",
+    "url": "https://raptor.dino.github.io"
+  },
+  {
+    "name": "Triceratops Builder Zone",
+    "description": "A peaceful dino village full of custom mods.",
+    "url": "https://trike.dino.github.io"
+  },
+  {
+    "name": "Stego Sandbox",
+    "description": "Experiments, physics tests, and dino chaos.",
+    "url": "https://stego.dino.github.io"
+  }
+]
