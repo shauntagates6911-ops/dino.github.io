@@ -1,0 +1,41 @@
+/* 🌋 PREHISTORIC BACKGROUND */
+body {
+  background: #1a1a1a url('https://i.imgur.com/6YVqFqU.png');
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 🦕 DINO AUTH BOX */
+.box {
+  background: rgba(0, 0, 0, 0.65);
+  padding: 35px;
+  width: 320px;
+  border-radius: 14px;
+  text-align: center;
+  border: 3px solid #8b5a2b;
+  box-shadow: 0 0 20px #8b5a2b;
+  animation: rumble 0.4s infinite alternate;
+}
+
+/* 🌋 RUMBLE EFFECT */
+@keyframes rumble {
+  from { transform: translateX(-2px); }
+  to   { transform: translateX(2px); }
+}
+
+/* 🦴 INPUTS */
+input {
+  width: 90%;
+  padding: 12px;
+  margin: 12px 0;
+  border-radius: 10px;
+  border: none;
+  background: #3a3a3a;
+  color: white
