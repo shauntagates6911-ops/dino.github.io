@@ -1,0 +1,63 @@
+/* 🌋 GLOBAL DINO VIBES */
+body {
+  background: #121212 url('https://i.imgur.com/6YVqFqU.png');
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+/* 🦕 HEADER */
+header {
+  background: rgba(0,0,0,0.7);
+  padding: 20px;
+  text-align: center;
+  border-bottom: 3px solid #8b5a2b;
+  box-shadow: 0 0 20px #8b5a2b;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+  text-shadow: 0 0 10px #a06b33;
+}
+
+/* 🔥 LOGOUT BUTTON */
+header button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #a06b33;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+header button:hover {
+  background: #c07d3d;
+  transform: scale(1.05);
+}
+
+/* 🌿 COMMUNITY PROJECTS SECTION */
+.projects {
+  padding: 20px;
+  background: rgba(0,0,0,0.6);
+  margin: 20px;
+  border-radius: 12px;
+  border: 2px solid #8b5a2b;
+  box-shadow: 0 0 15px #8b5a2b;
+}
+
+.projects h2 {
+  margin-top: 0;
+  font-size: 28px;
+  text-shadow: 0 0 8px #a06b33;
+}
+
+/* 🦖 PROJECT LIST */
+#projectList {
+  margin-top
