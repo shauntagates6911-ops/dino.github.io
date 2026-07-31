@@ -25,3 +25,6 @@ function loadFromBackpack(i) {
   img.onload = () => ctx.drawImage(img, 0, 0);
   img.src = backpack[i];
 }
+<button id="saveBackpackBtn">Save to Backpack</button>
+document.getElementById("saveBackpackBtn").onclick = saveToBackpack;
+renderBackpack();
