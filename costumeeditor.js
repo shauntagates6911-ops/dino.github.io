@@ -11,3 +11,6 @@ document.getElementById("centerBtn").onclick = () => {
     (canvas.height - imgData.height) / 2
   );
 };
+document.getElementById("aiCostumeBtn").onclick = () => {
+  alert("Connect your AI model here.");
+};
