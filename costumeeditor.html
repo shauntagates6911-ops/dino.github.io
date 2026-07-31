@@ -34,3 +34,22 @@
 </body>
 </html>
 <button id="centerBtn">Put Objects To Center</button>
+<div class="toolsMenu">
+  <button id="aiCostumeBtn">AI Costume Maker</button>
+  <button id="gridToggleBtn">Toggle Grid</button>
+  <button id="mirrorBtn">Mirror Costume</button>
+</div>
+document.getElementById("gridToggleBtn").onclick = () => {
+  showGrid = !showGrid;
+  drawGrid();
+};
+
+document.getElementById("mirrorBtn").onclick = () => {
+  const img = ctx.getImageData(0, 0, canvas.width, canvas.height);
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+  ctx.save();
+  ctx.scale(-1, 1);
+  ctx.drawImage(canvas, -canvas.width, 0);
+  ctx.restore();
+};
