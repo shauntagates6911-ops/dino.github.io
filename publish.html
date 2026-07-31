@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DinosaurMod – Publish Your Dino Site</title>
+  <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>🦖 Publish Your Dino Project</h1>
+  </header>
+
+  <section class="projects">
+    <h2>🌋 Submit Your dino.github.io Link</h2>
+
+    <input id="dinoName" type="text" placeholder="Your Dino Name">
+    <input id="dinoURL" type="text" placeholder="Your dino.github.io URL">
+    <textarea id="dinoDesc" placeholder="Describe your dino project"></textarea>
+
+    <button onclick="submitDino()">Publish</button>
+
+    <p id="status"></p>
+  </section>
+
+  <script>
+    function submitDino() {
+      const name = document.getElementById("dinoName").value.trim();
+      const url = document.getElementById("dinoURL").value.trim();
+      const desc = document.getElementById("dinoDesc").value.trim();
+
+      if (!name || !url || !desc) {
+        document.getElementById("status").innerText = "Fill out all fields, mighty dinosaur!";
+        return;
+      }
+
+      // Create new dino project object
+      const newProject = {
+        name: name,
+        description: desc,
+        url: url
+      };
+
+      // Save to localStorage (since GitHub Pages can't write files)
+      let stored = localStorage.getItem("dino_submissions");
+      let arr = stored ? JSON.parse(stored) : [];
+
+      arr.push(newProject);
+      localStorage.setItem("dino_submissions", JSON.stringify(arr));
+
+      document.getElementById("status").innerText =
+        "Your dino site has been published to the kingdom!";
+    }
+  </script>
+
+</body>
+</html>
